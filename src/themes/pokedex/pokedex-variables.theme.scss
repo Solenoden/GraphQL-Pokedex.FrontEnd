@@ -1,0 +1,71 @@
+@import '~@angular/material/theming';
+
+$pokedex-red: (
+  50 : #fce7e2,
+  100 : #f7c2b6,
+  200 : #f19a86,
+  300 : #eb7256,
+  400 : #e75331,
+  500 : #e3350d,
+  600 : #e0300b,
+  700 : #dc2809,
+  800 : #d82207,
+  900 : #d01603,
+  A100 : #fff9f8,
+  A200 : #ffc8c5,
+  A400 : #ff9892,
+  A700 : #ff8079,
+  contrast: (
+    50 : #000000,
+    100 : #000000,
+    200 : #000000,
+    300 : #000000,
+    400 : #ffffff,
+    500 : #ffffff,
+    600 : #ffffff,
+    700 : #ffffff,
+    800 : #ffffff,
+    900 : #ffffff,
+    A100 : #000000,
+    A200 : #000000,
+    A400 : #000000,
+    A700 : #000000,
+  )
+);
+
+$pokedex-black: (
+  50 : #e6e6e6,
+  100 : #c1c1c1,
+  200 : #989898,
+  300 : #6f6f6f,
+  400 : #505050,
+  500 : #313131,
+  600 : #2c2c2c,
+  700 : #252525,
+  800 : #1f1f1f,
+  900 : #131313,
+  A100 : #ef6c6c,
+  A200 : #ea3e3e,
+  A400 : #f50000,
+  A700 : #db0000,
+  contrast: (
+    50 : #000000,
+    100 : #000000,
+    200 : #000000,
+    300 : #ffffff,
+    400 : #ffffff,
+    500 : #ffffff,
+    600 : #ffffff,
+    700 : #ffffff,
+    800 : #ffffff,
+    900 : #ffffff,
+    A100 : #000000,
+    A200 : #ffffff,
+    A400 : #ffffff,
+    A700 : #ffffff,
+  )
+);
+
+$pokedex-primary: mat-palette($pokedex-red);
+$pokedex-accent: mat-palette($pokedex-black, A200, A100, A400);
+$pokedex-warn: mat-palette($mat-red);

@@ -1,0 +1,13 @@
+@import '~@angular/material/theming';
+@import 'pokedex-variables.theme';
+@include mat-core();
+
+$pokedex-theme: mat-light-theme((
+  color: (
+    primary: $pokedex-primary,
+    accent: $pokedex-accent,
+    warn: $pokedex-warn,
+  )
+));
+
+@include angular-material-theme($pokedex-theme);
