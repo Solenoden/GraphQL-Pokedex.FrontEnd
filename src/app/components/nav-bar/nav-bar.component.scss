@@ -1,0 +1,17 @@
+@import '~@angular/material/theming';
+@import '../../../themes/pokedex/pokedex-variables.theme.scss';
+
+header {
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background-color: mat-color($pokedex-primary, 500);
+  color: mat-color($pokedex-primary, A400-contrast)
+}
+
+#logo {
+  font-weight: 500;
+  font-size: 1.05rem;
+}
