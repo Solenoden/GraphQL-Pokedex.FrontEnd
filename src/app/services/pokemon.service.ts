@@ -1,6 +1,6 @@
 import {Injectable} from "@angular/core";
 import {CommonService} from "./common.service";
-import {gql} from "@apollo/client";
+import gql from "graphql-tag";
 import {Pokemon} from "../models/Pokemon";
 import {JsonConvert, ValueCheckingMode} from "json2typescript";
 
