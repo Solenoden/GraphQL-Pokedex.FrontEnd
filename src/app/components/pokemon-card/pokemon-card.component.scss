@@ -1,0 +1,28 @@
+mat-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 175px;
+
+  mat-card-content {
+    display: flex;
+
+    img {
+      height: 125px;
+      width: auto;
+      margin: auto;
+    }
+  }
+
+  mat-card-footer {
+    padding: 8px;
+
+    mat-card-subtitle {
+      margin-bottom: 0;
+    }
+  }
+
+  &:hover {
+    opacity: 0.9;
+    cursor: pointer;
+  }
+}
