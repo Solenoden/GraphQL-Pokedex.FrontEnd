@@ -7,19 +7,23 @@ import {NavBarComponent} from './components/nav-bar/nav-bar.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {GraphQLModule} from './graphql.module';
 import {HttpClientModule} from '@angular/common/http';
+import {MatCardModule} from "@angular/material/card";
+import {PokemonCardComponent} from './components/pokemon-card/pokemon-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PokemonSummaryComponent,
-    NavBarComponent
+    NavBarComponent,
+    PokemonCardComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     GraphQLModule,
-    HttpClientModule
+    HttpClientModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

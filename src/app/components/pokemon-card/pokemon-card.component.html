@@ -1,0 +1,11 @@
+<mat-card>
+  <mat-card-content>
+    <!--  Replace placeholder image once support for pokemon images is implemented  -->
+    <img src="../../assets/pokemon-placeholder.png">
+  </mat-card-content>
+
+  <mat-card-footer [ngStyle]="{'background-color': typeColor}">
+      <mat-card-title>{{pokemon.name}}</mat-card-title>
+      <mat-card-subtitle>{{pokemon.type}}</mat-card-subtitle>
+  </mat-card-footer>
+</mat-card>
